@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senna Beds</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="icon" href="assets/images/logo.png" type="image/png" sizes="32x32">
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="top-left">
+      <i class="fa-solid fa-envelope"></i>
+      <a href="mailto:info@senna.com">info@senna.com</a>
+    </div>
+    <div class="top-center">Free Shipping On All Orders</div>
+    <div class="top-right">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-x-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="nav-side nav-left-side">
+        <div class="hamburger" aria-label="Open menu" role="button">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+                       <ul class="nav-left">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                </ul>
+            </div>
+
+            <!-- CENTER LOGO -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Senna Beds">
+                </a>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="nav-side nav-right-side">
+                <ul class="nav-right">
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="pages.html">PAGES</a></li>
+                </ul>
+        <li class="cart-icon" style="list-style:none">
+          <a href="#" id="cartIconBtn" aria-label="Open cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-count">0</span>
+          </a>
+        </li>
+      </div>
+    </nav>
+  </header>
+
+  <!-- SIDEBAR OVERLAY -->
+  <div class="sidebar-overlay"></div>
+
+  <!-- SIDEBAR MENU -->
+  <div class="sidebar-menu">
+    <div class="sidebar-top">
+      <h2>Senna Beds</h2>
+      <div class="close-sidebar" role="button" aria-label="Close menu">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    </div>
+    <nav class="mobile-only-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="desktop-only-content">
+      <p class="sidebar-text">Luxury furniture crafted for elegant and modern living spaces.</p>
+      <div class="sidebar-contact">
+        <div class="sidebar-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Islamabad, Pakistan</span>
+        </div>
+        <div class="sidebar-item">
+          <i class="fa-solid fa-phone"></i>
+          <span>+92 318 5930214</span>
+        </div>
+        <div class="sidebar-item">
+          <i class="fa-solid fa-envelope"></i>
+          <span>info@sennabeds.com</span>
+        </div>
+      </div>
+      <div class="sidebar-gallery">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=300" alt="Gallery 1">
+        <img src="https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?w=300" alt="Gallery 2">
+        <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=300" alt="Gallery 3">
+        <img src="https://images.unsplash.com/photo-1616627561839-074385245ff6?w=300" alt="Gallery 4">
+      </div>
+    </div>
+    <a href="cart.html" class="sidebar-cart-btn">View Cart</a>
+    <div class="sidebar-social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-x-twitter"></i></a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left">
+      <h1 class="hero-title">Luxury Furniture<br>For Modern Homes</h1>
+      <p class="hero-text">Discover premium beds, sofas and interior pieces designed for comfort and elegance.</p>
+      <a href="shop.html" class="hero-btn">Shop Now</a>
+    </div>
+    <div class="hero-right">
+      <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600" class="img img1" alt="Luxury Bed">
+      <img src="https://images.unsplash.com/photo-1616627561839-074385245ff6?w=400" class="img img2" alt="Modern Bed">
+      <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=400" class="img img3" alt="Classic Bed">
+    </div>
+  </section>
+
+  <!-- BEST SELLING -->
+  <section class="best-selling">
+    <div class="section-title">
+      <span></span>
+      <h2>Best Selling</h2>
+      <span></span>
+    </div>
+    <div class="products-grid">
+
+      <div class="product-card">
+        <img src="assets/images/bed1.ipg" alt="Luxury Bed Alpha">
+        <h3>Luxury Bed Alpha</h3>
+        <div class="rating">★★★★★</div>
+        <p class="price">$499</p>
+        <button class="add-cart-btn"
+          data-id="1" data-name="Luxury Bed Alpha" data-price="499"
+          data-image="assets/images/bed1.ipg">
+          Add to Cart
+        </button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://pngimg.com/uploads/bed/bed_PNG17425.png" alt="Modern Queen Bed">
+        <h3>Modern Queen Bed</h3>
+        <div class="rating">★★★★☆</div>
+        <p class="price">$399</p>
+        <button class="add-cart-btn"
+          data-id="2" data-name="Modern Queen Bed" data-price="399"
+          data-image="https://pngimg.com/uploads/bed/bed_PNG17425.png">
+          Add to Cart
+        </button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://pngimg.com/uploads/bed/bed_PNG17420.png" alt="Classic Wooden Bed">
+        <h3>Classic Wooden Bed</h3>
+        <div class="rating">★★★★★</div>
+        <p class="price">$599</p>
+        <button class="add-cart-btn"
+          data-id="3" data-name="Classic Wooden Bed" data-price="599"
+          data-image="https://pngimg.com/uploads/bed/bed_PNG17420.png">
+          Add to Cart
+        </button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://pngimg.com/uploads/bed/bed_PNG17422.png" alt="Minimal White Bed">
+        <h3>Minimal White Bed</h3>
+        <div class="rating">★★★★☆</div>
+        <p class="price">$349</p>
+        <button class="add-cart-btn"
+          data-id="4" data-name="Minimal White Bed" data-price="349"
+          data-image="https://pngimg.com/uploads/bed/bed_PNG17422.png">
+          Add to Cart
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SALE BANNER -->
+  <section class="sale-banner">
+    <div class="banner">
+      <div class="banner-text">
+        <h2>Mid Season Sale</h2>
+        <p>Up to 40% off on luxury beds</p>
+        <a href="shop.html">View Collection</a>
+      </div>
+    </div>
+    <div class="banner banner2">
+      <div class="banner-text">
+        <h2>New Arrival 2026</h2>
+        <p>Modern furniture collection</p>
+        <a href="shop.html">View Collection</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PRODUCTS -->
+  <section class="featured-section">
+    <div class="section-title">
+      <span></span>
+      <h2>Featured Products</h2>
+      <span></span>
+    </div>
+    <div class="product-grid">
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400" alt="Luxury Bed Alpha">
+        <h3>Luxury Bed Alpha</h3>
+        <div class="rating">★★★★★</div>
+        <p class="price">$499</p>
+        <button class="add-cart-btn"
+          data-id="5" data-name="Luxury Bed Alpha" data-price="499"
+          data-image="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400">
+          Add to Cart
+        </button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1616628182504-3a8d4b6b2f1e?w=400" alt="Royal Comfort Bed">
+        <h3>Royal Comfort Bed</h3>
+        <div class="rating">★★★★☆</div>
+        <p class="price">$432</p>
+        <button class="add-cart-btn"
+          data-id="6" data-name="Royal Comfort Bed" data-price="432"
+          data-image="https://images.unsplash.com/photo-1616628182504-3a8d4b6b2f1e?w=400">
+          Add to Cart
+        </button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?w=400" alt="Modern Wooden Bed">
+        <h3>Modern Wooden Bed</h3>
+        <div class="rating">★★★★★</div>
+        <p class="price">$123</p>
+        <button class="add-cart-btn"
+          data-id="7" data-name="Modern Wooden Bed" data-price="123"
+          data-image="https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?w=400">
+          Add to Cart
+        </button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?w=400" alt="Elegant Sleep Bed">
+        <h3>Elegant Sleep Bed</h3>
+        <div class="rating">★★★★☆</div>
+        <p class="price">$450</p>
+        <button class="add-cart-btn"
+          data-id="8" data-name="Elegant Sleep Bed" data-price="450"
+          data-image="https://images.unsplash.com/photo-1615873968403-89e068629265?w=400">
+          Add to Cart
+        </button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=400" alt="Classic Wooden Frame">
+        <h3>Classic Wooden Frame</h3>
+        <div class="rating">★★★★★</div>
+        <p class="price">$520</p>
+        <button class="add-cart-btn"
+          data-id="9" data-name="Classic Wooden Frame" data-price="520"
+          data-image="https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=400">
+          Add to Cart
+        </button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1505693314120-0d443867891c?w=400" alt="Luxury King Bed">
+        <h3>Luxury King Bed</h3>
+        <div class="rating">★★★★★</div>
+        <p class="price">$456</p>
+        <button class="add-cart-btn"
+          data-id="10" data-name="Luxury King Bed" data-price="456"
+          data-image="https://images.unsplash.com/photo-1505693314120-0d443867891c?w=400">
+          Add to Cart
+        </button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1616628183017-5c8a1f3f5a32?w=400" alt="Soft Foam Bed">
+        <h3>Soft Foam Bed</h3>
+        <div class="rating">★★★★☆</div>
+        <p class="price">$350</p>
+        <button class="add-cart-btn"
+          data-id="11" data-name="Soft Foam Bed" data-price="350"
+          data-image="https://images.unsplash.com/photo-1616628183017-5c8a1f3f5a32?w=400">
+          Add to Cart
+        </button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?w=400" alt="Premium Sleep Bed">
+        <h3>Premium Sleep Bed</h3>
+        <div class="rating">★★★★★</div>
+        <p class="price">$680</p>
+        <button class="add-cart-btn"
+          data-id="12" data-name="Premium Sleep Bed" data-price="680"
+          data-image="https://images.unsplash.com/photo-1615873968403-89e068629265?w=400">
+          Add to Cart
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SALE SECTION -->
+  <section class="sale-section">
+    <div class="sale-left">
+      <div class="sale-box">
+        <h3>Luxury Bedroom Sale</h3>
+        <a class="discover-btn" href="shop.html">Discover</a>
+      </div>
+    </div>
+    <div class="sale-right">
+      <div class="sale-box small">
+        <h3>Modern Beds</h3>
+        <a class="discover-btn" href="shop.html">Discover</a>
+      </div>
+      <div class="sale-box small">
+        <h3>Wooden Collection</h3>
+        <a class="discover-btn" href="shop.html">Discover</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="section-title">
+      <span></span>
+      <h2>Testimonials</h2>
+      <span></span>
+    </div>
+    <div class="testimonial-container">
+      <button class="prev-btn" aria-label="Previous testimonial">&#10094;</button>
+      <div class="testimonial-slider">
+        <div class="testimonial-card active">
+          <img src="https://i.pravatar.cc/150?img=12" alt="Ali Raza">
+          <p>"The quality of furniture is absolutely amazing. Delivery was fast and packaging was premium."</p>
+          <h3>Ali Raza</h3>
+          <span>Home Owner</span>
+        </div>
+        <div class="testimonial-card">
+          <img src="https://i.pravatar.cc/150?img=32" alt="Sara Khan">
+          <p>"Senna Beds transformed my bedroom completely. Luxury feel at very reasonable price."</p>
+          <h3>Sara Khan</h3>
+          <span>Interior Designer</span>
+        </div>
+        <div class="testimonial-card">
+          <img src="https://i.pravatar.cc/150?img=45" alt="Ahmed Sheikh">
+          <p>"Customer service is top-notch and the furniture quality is far above expectations."</p>
+          <h3>Ahmed Sheikh</h3>
+          <span>Business Owner</span>
+        </div>
+      </div>
+      <button class="next-btn" aria-label="Next testimonial">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- BLOG -->
+  <section class="blog-section">
+    <div class="section-title">
+      <span></span>
+      <h2>Latest Blog</h2>
+      <span></span>
+    </div>
+    <div class="blog-container">
+      <div class="blog-card">
+        <div class="blog-img">
+          <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600" alt="Modern Bedroom Ideas">
+        </div>
+        <div class="blog-content">
+          <span class="date">Jan 12, 2026</span>
+          <h3>Modern Bedroom Ideas</h3>
+          <p>Discover how minimal design and warm tones can transform your bedroom into a luxury space.</p>
+          <a href="blog.html">Read More</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-img">
+          <img src="https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?w=600" alt="Living Room Trends">
+        </div>
+        <div class="blog-content">
+          <span class="date">Jan 08, 2026</span>
+          <h3>Living Room Trends</h3>
+          <p>Explore the latest furniture trends that bring comfort and elegance together in your home.</p>
+          <a href="blog.html">Read More</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-img">
+          <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=600" alt="Furniture Buying Guide">
+        </div>
+        <div class="blog-content">
+          <span class="date">Jan 02, 2026</span>
+          <h3>Furniture Buying Guide</h3>
+          <p>Learn how to choose the perfect furniture that fits your style, space, and budget.</p>
+          <a href="blog.html">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="why-choose-us">
+    <div class="why-header">
+      <span></span>
+      <h2>Why Choose Us</h2>
+      <span></span>
+    </div>
+    <div class="why-container">
+      <div class="why-card">
+        <div class="why-icon"><i class="fa-solid fa-couch"></i></div>
+        <h3>Premium Quality</h3>
+        <p>Carefully crafted furniture using high-quality materials.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><i class="fa-solid fa-truck-fast"></i></div>
+        <h3>Fast Delivery</h3>
+        <p>Secure and fast delivery for every order.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><i class="fa-solid fa-shield-heart"></i></div>
+        <h3>Trusted Warranty</h3>
+        <p>Warranty support for all premium furniture products.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><i class="fa-solid fa-headset"></i></div>
+        <h3>24/7 Support</h3>
+        <p>Friendly customer support whenever you need help.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGE POPUP LIGHTBOX -->
+  <div class="image-popup" id="imagePopup" role="dialog" aria-modal="true" aria-label="Image preview">
+    <span class="close-popup" id="closePopup" aria-label="Close image">
+      <i class="fa-solid fa-xmark"></i>
+    </span>
+    <img src="" class="popup-img" id="popupImg" alt="Preview">
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-box footer-about">
+        <h2 class="footer-logo">Senna Beds</h2>
+        <p class="footer-description">
+          Luxury furniture crafted for comfort, elegance and modern living spaces.
+          Experience premium quality furniture designed for modern homes.
+        </p>
+        <div class="footer-contact">
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Islamabad, Pakistan</span>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>+92 318 5930214</span>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-clock"></i>
+            <span>Mon - Sat / 9AM - 10PM</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-box footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-box footer-newsletter">
+        <h3>Newsletter</h3>
+        <p class="newsletter-text">Subscribe to receive updates, offers and luxury furniture inspiration.</p>
+        <div class="newsletter">
+          <input type="email" placeholder="Enter your email" aria-label="Email address">
+          <button type="button" id="newsletterBtn">Subscribe</button>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Senna Beds Online. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- CART OVERLAY -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+
+  <!-- CART DRAWER -->
+  <div class="cart-drawer" id="cartDrawer">
+    <div class="cart-top">
+      <h2>Your Cart</h2>
+      <i class="fa-solid fa-xmark close-cart" id="closeCart" role="button" aria-label="Close cart"></i>
+    </div>
+    <div class="cart-items-container" id="cartItemsContainer"></div>
+    <div class="cart-bottom">
+      <div class="cart-total-box">
+        Total: <span class="cart-total" id="cartTotal">$0.00</span>
+      </div>
+      <div class="cart-actions">
+        <a href="cart.html" class="view-cart-btn">View Cart</a>
+        <a href="checkout.html" class="checkout-btn">Checkout</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast" id="toast"></div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
